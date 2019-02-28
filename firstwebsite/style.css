@@ -1,0 +1,77 @@
+index{
+  background-image:url(image/cake3.jpg);
+  background-size: cover;
+}
+
+div.transbox{
+  text-align:center;
+  margin:30px;
+  background-color:rgb(255,255,255,0.6);
+}
+
+nav ul{
+  list-style-type: none;
+  margin:30px;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255, 255, 255,0.6);
+}
+
+nav ul li{
+  float:left;
+}
+
+nav ul li a{
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: "Palatino Linotype";
+}
+
+span{
+  display: block;
+  color: bisque;
+  text-align: center;
+  padding: 5px;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+nav ul li a:hover{
+  background-color: bisque;
+  color:white;
+}
+
+#pagetitle{
+  text-align: center;
+  color:white;
+  font-size:420%;
+  font-family:"Lucida Sans Unicode";
+}
+
+.contact{
+  background-image:url(image/cake1.jpg);
+  background-size: cover;
+}
+
+.about{
+  background-image:url(image/cake2.jpg);
+  background-size: cover;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
