@@ -1,0 +1,80 @@
+body {
+  background-image:url("image/background.jpg");
+  background-size:contain;
+}
+
+h1{
+  text-align: center;
+  color:white;
+  font-family:"Lucida Sans Unicode";
+  text-shadow:1px 1px gray;
+  font-size:510%;
+}
+
+.nav-wrapper {
+  text-align: center;
+  background-color: rgb(38,255,191);
+  position: fixed;
+  width:100%;
+  box-shadow: 3px 5px;
+}
+
+.nav-wrapper li{
+  display: inline;
+  padding:50px;
+}
+
+.nav-wrapper a{
+  text-decoration: none;
+  font-family: Verdana;
+  color: white;
+  font-size:150%
+}
+
+.nav-wrapper a:hover{
+  color:black;
+  background:yellow;
+}
+
+#lyrics{
+  background-color:rgb(0,173,181);
+  height:550px;
+  padding:50px 20px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+}
+
+#gallery{
+  background-color:rgb(57,62,70);
+  height:550px;
+  padding:50px 20px;
+}
+
+#about{
+  background-color:rgb(252,127,98);
+  height:300px;
+  padding:50px 20px;
+  font-family: "Lucida Sans Unicode";
+  font-size:200%;
+}
+
+#more{
+  background-color:rgb(255,253,242);
+  height:300px;
+  padding:50px 20px;
+  text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
