@@ -167,7 +167,7 @@ span {
 
 #gallery li:nth-child(8):hover ~ .bg {background:#537b9E;}
 #gallery li:nth-child(8):hover img{width:21%;}
-#gallery li:nth-child(9):hover ~ .bg {background:#537b9E;}
+#gallery li:nth-child(9):hover ~ .bg {background:#537BAF;}
 #gallery li:nth-child(9):hover img{width:21%;}
 #gallery li:nth-child(10):hover ~ .bg {background:#537b9E;}
 #gallery li:nth-child(10):hover img{width:21%;}
@@ -175,11 +175,11 @@ span {
 #gallery li:nth-child(11):hover img{width:21%;}
 #gallery li:nth-child(12):hover ~ .bg {background:#537b9E;}
 #gallery li:nth-child(12):hover img{width:21%;}
-#gallery li:nth-child(13):hover ~ .bg {background:#537b9E;}
+#gallery li:nth-child(13):hover ~ .bg {background:#537BAF;}
 #gallery li:nth-child(13):hover img{width:21%;}
 #gallery li:nth-child(14):hover ~ .bg {background:#537b9E;}
 #gallery li:nth-child(14):hover img{width:21%;}
-#gallery li:nth-child(15):hover ~ .bg {background:#537b9E;}
+#gallery li:nth-child(15):hover ~ .bg {background:#537BAF;}
 #gallery li:nth-child(15):hover img{width:21%;}
 #gallery li:nth-child(16):hover ~ .bg {background:#537b9E;}
 #gallery li:nth-child(16):hover img{width:21%;}
@@ -201,6 +201,8 @@ span {
 
 #gallery li:nth-child(22):hover ~ .bg {background:indianred;}
 #gallery li:nth-child(22):hover img{width:28%;}
+
+#gallery li:nth-child(23):hover ~ .bg {background:firebrick;}
 
 .contact{
   margin-left: 300px;
