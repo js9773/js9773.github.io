@@ -1,0 +1,20 @@
+body{
+  background-image: linear-gradient(to right, lightpink, tan);
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+h1{
+  text-align: center;
+  color:white;
+  text-shadow: purple 3px 5px;
+}
+
+h3{
+  color: white !important;
+}
+
+.col{
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+body{
+  background-image: linear-gradient(to right, lightpink, tan);
+  background-size: cover;
+  overflow: hidden;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'item1 item2 item3';
+  /* grid-gap: 10px;
+  padding: 10px; */
+}
+
+h1{
+  text-align: center;
+  color:white;
+  text-shadow: purple 3px 5px;
+  font-size: 220%;
+}
+
+h3{
+  color: white;
+  font-size: 160%;
+}
