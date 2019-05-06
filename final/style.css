@@ -1,0 +1,161 @@
+  body{
+     background: black;
+     overflow-x: hidden;
+  }
+
+#vortex{
+  width:1500px;
+  display:block;
+  z-index:0;
+}
+
+#saladHead{
+  position:absolute;
+  z-index:1;
+  width:290px;
+  top:230px;
+  left:600px;
+  overflow:hidden;
+}
+#saladHead:hover{
+  width:335px;
+  animation: shake 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#title{
+  display:none;
+  z-index:-1;
+  position:absolute;
+  top:230px;
+  left:400px;
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#info{
+  display:none;
+  position:absolute;
+  top:420px;
+  left:680px;
+  animation: fadeIn 10s;
+  font-family:'Amatic SC', cursive;
+}
+
+#interact{
+  display:none;
+  top:50px;
+}
+
+#hat {
+  display:none;
+}
+
+#hellopic{
+  display:none;
+  z-index:-10;
+  position:absolute;
+  top:120px;
+  left:380px;
+  width:55%;
+}
+
+#menu{
+  z-index:-2;
+  display:none;
+  padding-left:105px;
+  background:gray;
+}
+
+#menu a{
+  display:inline;
+  text-decoration: none;
+  font-size: 370%;
+  font-family:'Amatic SC', cursive;
+  color:black;
+  margin:126px;
+}
+
+#menu a:hover{
+  color:white;
+}
+
+.menu{
+  z-index:-2;
+  padding-left:105px;
+  background:gray;
+}
+
+.menu a{
+  display:inline;
+  text-decoration: none;
+  font-size: 370%;
+  font-family:'Amatic SC', cursive;
+  color:black;
+  margin:126px;
+}
+
+.menu a:hover{
+  color:white;
+}
+
+#video{
+  margin-left: 250px;
+  display:inline;
+}
+
+.pics img{
+  position:fixed;
+  top:400px;
+  display:inline-block;
+  margin-left: 560px;
+}
+
+#link{
+  color:white;
+  font-family:'Amatic SC', cursive;
+  font-size:400%;
+  text-decoration:underline;
+  margin-left:260px;
+}
+
+p{
+  position: fixed;
+  color:white;
+  font-family:'Amatic SC', cursive;
+  font-size:400%;
+  margin-left:730px;
+}
+
+.morevideo{
+  margin:100px;
+}
+
+.morevideo img{
+  margin:5px;
+}
+
+h5{
+  color:white;
+  font-family:'Amatic SC', cursive;
+  font-size:400%;
+  text-align: center;
+}
